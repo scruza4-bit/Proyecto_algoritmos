@@ -1,0 +1,20 @@
+# Directorio de dependencias de Composer
+/vendor/
+/composer.lock
+
+# Archivos de entorno y configuración sensible
+.env
+.env.*
+
+# Archivos de caché, logs y sesiones de CodeIgniter o cualquier framework
+/writable/cache/
+/writable/logs/
+/writable/session/
+
+# Archivos de IDE y sistema operativo (Windows/macOS/Linux)
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
